@@ -9,6 +9,9 @@ A 2D RPG game in development, inspired by classic SNES titles like Final Fantasy
 
 ![image](https://github.com/user-attachments/assets/a1317c1b-908d-4ccf-8775-3dedea28a4eb)
 
+![image](https://github.com/user-attachments/assets/7237513f-39f2-48af-8b0a-d159abc2dbea)
+
+
 
 ## Technology
 Java and SimpleJSON library.
