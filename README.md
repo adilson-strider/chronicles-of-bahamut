@@ -1,4 +1,4 @@
-### The Legend of Bahamut
+### The Chronicles of Bahamut
 
 ## Description
 A 2D RPG game in development, inspired by classic SNES titles like Final Fantasy and Breath of Fire.
