@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="profiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/Rpg2DTest/images/profiles/ezgif-2-8422b582c4-png-144x144-sprite-png.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Rpg2DTest/images/profiles/ezgif-2-e0fa5f13be-png-144x144-sprite-png.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

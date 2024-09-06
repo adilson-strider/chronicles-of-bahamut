@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="id" value="267"/>
+  <property name="autoplay_bgm" value="true"/>
+  <property name="autoplay_bgs" value="false"/>
+  <property name="bgm" value="[039-Dungeon05,100,100]"/>
+  <property name="bgs" value="[80,100]"/>
+  <property name="encounter_list" value="[]"/>
+  <property name="encounter_step" value="30"/>
+ </properties>
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="id" value="27"/>
+   <property name="name" value="Castle Dungeon"/>
+   <property name="tileset_name" value="027-Castle03"/>
+   <property name="panorama_name" value=""/>
+   <property name="panorama_hue" value="0"/>
+   <property name="fog_name" value=""/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="battleback_name" value="Dungeon"/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,16,16,16,16,31,31,31,31,31,31,31,31,31,16,16,16,16,16,31,31,31,31,16,16,31,16,16,16,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,1,1,1,15,15,15,15,15,143,143,143,15,15,15,15,15,8,8,8,15,15,0,0,0,0,0,0,0,0,15,15,9,15,15,15,15,0,0,0,1,0,0,0,15,15,15,15,9,0,0,0,15,15,0,0,8,0,0,0,15,0,0,0,0,15,15,15,15,1,1,0,0,1,1,1,1,1,1,15,15,8,8,8,0,8,8,0,0,1,1,1,1,1,1,1,1,8,8,8,8,8,8,8,8,15,15,0,15,15,0,15,15,15,15,15,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,15,15,15,15,15,15,15,0,15,0,0,0,0,0,8,0,8,4,0,2,0,0,0,0,0,0,8,0,0,0]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,2,0,0,0,0,1,1,2,2,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+  </properties>
+  <image source="..\/images\/tilesets\/027-Castle03.png" width="256" height="800"/>
+ </tileset>
+ <objectgroup name="Events" width="20" height="15">
+  <object name="Bandit Leader" type="event" x="320" y="160" width="32" height="32">
+   <properties>
+    <property name="id" value="5"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="014-Warrior02"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV011" type="event" x="288" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="11"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="250"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[201,1,[0,266,10,1,2,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Bandit 1" type="event" x="160" y="192" width="32" height="32">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="150-Sailor01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV001" type="event" x="160" y="96" width="32" height="32">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="184-Light01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Fire]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV012" type="event" x="32" y="320" width="32" height="32">
+   <properties>
+    <property name="id" value="12"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="3"/>
+    <property name="list" value="[[223,0,[(-255.000000, -255.000000, -255.000000, 0.000000),20]],[106,0,[20]],[201,0,[0,267,9,7,8,0]],[121,0,[253,253,0]],[106,0,[20]],[223,0,[(0.000000, 0.000000, 0.000000, 0.000000),20]],[106,0,[20]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Alright boys! Looks like we've made ourselves some ]],[401,0,[great money this year, great job!]],[122,0,[3,3,0,0,6]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Oh yeah!!]],[122,0,[3,3,0,0,9]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Damn right, boss!! You guys should've seen the look ]],[401,0,[on those stupid travellers' faces! hahaha!]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Hahahah!! Those weaklings!]],[106,0,[20]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Travellers? Hmm, can I hear the story about that in ]],[401,0,[detail? You know, for some laughs. ]],[235,0,[1]],[122,0,[3,3,0,0,7]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Too bad you guys weren't there! When we finished ]],[401,0,[taking their gold, they begged for their lives.]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,["Mercy, please! We already gave you everythin---" ]],[401,0,[Bssshingggg!!]],[122,0,[3,3,0,0,8]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Hahahaha! Good one!]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[I see. They already gave you what you wanted, but ]],[401,0,[you murdered them anyway?]],[235,0,[1]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Well newling, that's how we roll here. There's no real ]],[401,0,[pleasure without spilling blood along with gold!]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[...]],[122,0,[3,3,0,0,10]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*whispers* What a bunch of jerks, we're kicking their ]],[401,0,[asses here right?]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[*whispers* In time, Clark. Let us see how this ]],[401,0,[escalates.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Anyway, I guess you all already know why we're all ]],[401,0,[gathered here today.]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[we're celebrating the most valuable items we have ]],[401,0,[taken up to date.]],[106,0,[20]],[209,0,[5,#<RPG::MoveRoute:0xbc26370>]],[509,0,[#<RPG::MoveCommand:0xbc26310>]],[509,0,[#<RPG::MoveCommand:0xbc262b0>]],[210,0,[]],[106,0,[20]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[This one here, a very dazzling gem we took from a ]],[401,0,[pathetic little merchant boy at Atlantus.]],[250,0,[#<RPG::AudioFile:0xbc25e48>]],[106,0,[20]],[209,0,[5,#<RPG::MoveRoute:0xbc25d28>]],[509,0,[#<RPG::MoveCommand:0xbc25cc8>]],[509,0,[#<RPG::MoveCommand:0xbc25c68>]],[210,0,[]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Next we have a recent take. A rare sword that we've ]],[401,0,[taken from a naive crusader crossing us.]],[122,0,[3,3,0,0,8]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Ohhhh! Shineyyy!!]],[106,0,[20]],[209,0,[5,#<RPG::MoveRoute:0xbc25680>]],[509,0,[#<RPG::MoveCommand:0xbc25620>]],[509,0,[#<RPG::MoveCommand:0xbc255c0>]],[210,0,[]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Here we have the biggest gold bar in all of Delgado, ]],[401,0,[robbed from a stupid priest who died anyway.]],[122,0,[3,3,0,0,6]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[The things we can buy with those! Hehehe!]],[106,0,[20]],[209,0,[5,#<RPG::MoveRoute:0xbc24ff0>]],[509,0,[#<RPG::MoveCommand:0xbc24f90>]],[509,0,[#<RPG::MoveCommand:0xbc24f30>]],[210,0,[]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Lastly, an amulet embedded with the most rarest ]],[401,0,[stone: the Celestial Quartz.]],[207,0,[-1,98]],[106,0,[20]],[122,0,[3,3,0,0,0]],[122,0,[4,4,0,0,1]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[An amulet with a Celestial Quartz? There's only one ]],[401,0,[person in the world who made that.]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Could it be?...]],[235,0,[1]],[106,0,[20]],[122,0,[4,4,0,0,0]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[This amulet was taken a long time ago, but is still ]],[401,0,[really valuable.]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[I can still remember those two lovers who begged for ]],[401,0,[their lives cause they still have a son, hahahaha!]],[207,0,[-1,98]],[106,0,[20]],[122,0,[3,3,0,0,10]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*whispers* Alden.]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[*whispers* I know..]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[So boss, can you describe what these two lovers ]],[401,0,[looked like?]],[101,0,[\c[3]Alden\c[0]]],[401,0,[You know, so I can imagine vividly how horribly they ]],[401,0,[died for fun?]],[235,0,[1]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Ahahaha!! Well, the woman wearing this amulet had ]],[401,0,[green hair like yours! Guess it's your lucky day!]],[242,0,[3]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[The dad on the other hand was--]],[207,0,[-1,1]],[106,0,[20]],[209,0,[-1,#<RPG::MoveRoute:0xbc23568>]],[509,0,[#<RPG::MoveCommand:0xbc23508>]],[509,0,[#<RPG::MoveCommand:0xbc234a8>]],[210,0,[]],[241,0,[#<RPG::AudioFile:0xbc23268>]],[207,0,[5,86]],[122,0,[3,3,0,0,5]],[101,0,[\c[3]X-Thug Leader\c[0]]],[401,0,[Argh!!]],[121,0,[254,254,0]],[106,0,[20]],[207,0,[6,98]],[207,0,[7,98]],[207,0,[8,98]],[207,0,[9,98]],[106,0,[10]],[122,0,[3,3,0,0,6]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Boss!!]],[209,0,[6,#<RPG::MoveRoute:0xbc22c08>]],[509,0,[#<RPG::MoveCommand:0xbc22ba8>]],[509,0,[#<RPG::MoveCommand:0xbc22b48>]],[509,0,[#<RPG::MoveCommand:0xbc22ae8>]],[509,0,[#<RPG::MoveCommand:0xbc22a88>]],[509,0,[#<RPG::MoveCommand:0xbc22a28>]],[509,0,[#<RPG::MoveCommand:0xbc229c8>]],[210,0,[]],[106,0,[10]],[122,0,[3,3,0,0,6]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Shoot!! He's dead!!]],[209,0,[6,#<RPG::MoveRoute:0xbc22458>]],[509,0,[#<RPG::MoveCommand:0xbc223f8>]],[209,0,[7,#<RPG::MoveRoute:0xbc22278>]],[509,0,[#<RPG::MoveCommand:0xbc22218>]],[209,0,[8,#<RPG::MoveRoute:0xbc22098>]],[509,0,[#<RPG::MoveCommand:0xbc22038>]],[209,0,[9,#<RPG::MoveRoute:0xbc21eb8>]],[509,0,[#<RPG::MoveCommand:0xbc21e58>]],[509,0,[#<RPG::MoveCommand:0xbc21df8>]],[509,0,[#<RPG::MoveCommand:0xbc21d98>]],[209,0,[10,#<RPG::MoveRoute:0xbc21b58>]],[509,0,[#<RPG::MoveCommand:0xbc21af8>]],[210,0,[]],[122,0,[3,3,0,0,6]],[122,0,[4,4,0,0,2]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[Youuuu!!!]],[106,0,[20]],[122,0,[3,3,0,0,0]],[122,0,[4,4,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Funny, it really is my lucky day.]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now I get the chance to shower my parents' ]],[401,0,[murderers in their own blood.]],[235,0,[1]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,7]],[101,0,[\c[3]X-Thug Member\c[0]]],[401,0,[What did you do??!!]],[122,0,[4,4,0,0,0]],[209,0,[-1,#<RPG::MoveRoute:0xbc21108>]],[509,0,[#<RPG::MoveCommand:0xbc210a8>]],[210,0,[]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Swift justice.]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now it's your turn.]],[235,0,[1]],[132,0,[#<RPG::AudioFile:0xbc20bb0>]],[301,0,[116,false,false]],[132,0,[#<RPG::AudioFile:0xbc20a90>]],[121,0,[255,255,0]],[106,0,[20]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Well, that took care of that.]],[209,0,[10,#<RPG::MoveRoute:0xbc20748>]],[509,0,[#<RPG::MoveCommand:0xbc206e8>]],[210,0,[]],[122,0,[3,3,0,0,10]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Dude...]],[235,0,[1]],[209,0,[-1,#<RPG::MoveRoute:0xbc202e0>]],[509,0,[#<RPG::MoveCommand:0xbc20280>]],[210,0,[]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Let's just get back to our friends and tell the Mayor.]],[101,0,[\c[3]Alden\c[0]]],[401,0,[The Mayor should know what to do with these stolen ]],[401,0,[items.]],[235,0,[1]],[209,0,[-1,#<RPG::MoveRoute:0xbc1fd10>]],[509,0,[#<RPG::MoveCommand:0xbc1fcb0>]],[210,0,[]],[106,0,[20]],[209,0,[-1,#<RPG::MoveRoute:0xbc1fa70>]],[509,0,[#<RPG::MoveCommand:0xbc1fa10>]],[509,0,[#<RPG::MoveCommand:0xbc1f9b0>]],[509,0,[#<RPG::MoveCommand:0xbc1f950>]],[509,0,[#<RPG::MoveCommand:0xbc1f8f0>]],[509,0,[#<RPG::MoveCommand:0xbc1f890>]],[509,0,[#<RPG::MoveCommand:0xbc1f830>]],[509,0,[#<RPG::MoveCommand:0xbc1f7d0>]],[509,0,[#<RPG::MoveCommand:0xbc1f770>]],[509,0,[#<RPG::MoveCommand:0xbc1f710>]],[509,0,[#<RPG::MoveCommand:0xbc1f6b0>]],[509,0,[#<RPG::MoveCommand:0xbc1f650>]],[209,0,[10,#<RPG::MoveRoute:0xbc1f110>]],[509,0,[#<RPG::MoveCommand:0xbc1f0b0>]],[210,0,[]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[As for this.]],[235,0,[1]],[106,0,[20]],[250,0,[#<RPG::AudioFile:0xbc1ec48>]],[101,0,[Acquired Celestial Amulet!]],[128,0,[38,0,0,1]],[106,0,[20]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[This belongs to my mother, you trash. My father made ]],[401,0,[this exclusively for her.]],[101,0,[\c[3]Alden\c[0]]],[401,0,[I'll be taking it.]],[235,0,[1]],[106,0,[20]],[209,0,[-1,#<RPG::MoveRoute:0xbc1e660>]],[509,0,[#<RPG::MoveCommand:0xbc1e600>]],[210,0,[]],[122,0,[3,3,0,0,0]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Let's go.]],[122,0,[3,3,0,0,10]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Yep!]],[235,0,[1]],[106,0,[20]],[223,0,[(-255.000000, -255.000000, -255.000000, 0.000000),20]],[106,0,[20]],[121,0,[256,256,0]],[106,0,[20]],[223,0,[(0.000000, 0.000000, 0.000000, 0.000000),20]],[106,0,[20]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Bandit 2" type="event" x="224" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="7"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="150-Sailor01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV002" type="event" x="448" y="96" width="32" height="32">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="184-Light01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Fire]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Bandit 3" type="event" x="416" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="8"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="150-Sailor01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV003" type="event" x="160" y="384" width="32" height="32">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Bandit 4" type="event" x="448" y="192" width="32" height="32">
+   <properties>
+    <property name="id" value="9"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="150-Sailor01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="4"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV004" type="event" x="448" y="384" width="32" height="32">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Clark" type="event" x="352" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="10"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="253"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Clark"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAoAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAoAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAACgAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAACgAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHkAAAB6AAAAewAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+AAAAPwAAAAAAAAAAAAAAgQAAAIIAAACDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOAAAATwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEYAAABHAAAAAAAAACEAAAAiAAAAIgAAACIAAAAiAAAAIgAAACIAAAAjAAAAAAAAAFYAAABXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgAAAD8AAAAAAAAAKQAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACsAAAAAAAAATgAAAE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGAAAARwAAAAAAAAAxAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAMwAAAAAAAABWAAAAVwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4AAABPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARgAAAEcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVgAAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/AAAAgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAIcAAACIAAAAjwAAAIwAAAAAAAAAigAAAAAAAAA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwAAAAAAAAA3AAAAAAAAADcAAAAAAAAANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+</map>

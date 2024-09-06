@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="55" height="35" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="id" value="231"/>
+  <property name="autoplay_bgm" value="true"/>
+  <property name="autoplay_bgs" value="false"/>
+  <property name="bgm" value="[2.23-blue-gloom,100,100]"/>
+  <property name="bgs" value="[80,100]"/>
+  <property name="encounter_list" value="[]"/>
+  <property name="encounter_step" value="30"/>
+ </properties>
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="id" value="8"/>
+   <property name="name" value="Snow Field"/>
+   <property name="tileset_name" value="008-Snowfield01"/>
+   <property name="panorama_name" value="snow-mountain-wallpaper-2"/>
+   <property name="panorama_hue" value="0"/>
+   <property name="fog_name" value=""/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="battleback_name" value="Snow field"/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,64,64,64,0,64,15,15,15,64,64,64,64,64,10,8,12,0,0,0,64,64,2,15,4,1,1,1,10,12,15,15,15,2,15,4,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,15,15,15,15,15,15,0,0,15,15,15,15,15,2,4,15,15,15,15,15,15,2,4,0,15,15,15,15,15,15,15,15,15,15,15,15,0,15,15,6,15,15,15,15,0,15,0,6,0,15,15,8,0,8,0,0,15,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,15,15,0,15,15,15,15,0,15,0,0,0,0,0,15,0,15,0,0,15,15,15,15,0,15,0,0,1,1,1,0,0,0,0,0,15,15,15,0,0,0,15,15]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,1,5,5,0,0,0,0,0,0,4,4,0,0,0,0,0,0,3,3,1,1,1,0,0,0,2,2,0,0,0,0,2,2,0,0]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+  </properties>
+  <image source="..\/images\/tilesets\/008-Snowfield01.png" width="256" height="864"/>
+ </tileset>
+ <objectgroup name="Events" width="55" height="35">
+  <object name="EV005" type="event" x="352" y="704" width="32" height="32">
+   <properties>
+    <property name="id" value="5"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="092-Monster06"/>
+    <property name="character_hue" value="330"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="4"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="2"/>
+    <property name="list" value="[[301,0,[90,true,false]],[601,0,[]],[116,1,[]],[0,1,[]],[602,0,[]],[123,1,[A,0]],[0,1,[]],[604,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV011" type="event" x="1600" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="11"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="164-Small06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV006" type="event" x="960" y="608" width="32" height="32">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="087-Monster01"/>
+    <property name="character_hue" value="150"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="4"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="2"/>
+    <property name="list" value="[[301,0,[89,true,false]],[601,0,[]],[116,1,[]],[0,1,[]],[602,0,[]],[123,1,[A,0]],[0,1,[]],[604,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV001" type="event" x="0" y="640" width="32" height="32">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,4]],[201,1,[0,230,33,2,4,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV012" type="event" x="800" y="64" width="32" height="32">
+   <properties>
+    <property name="id" value="12"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="164-Small06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV007" type="event" x="224" y="416" width="32" height="32">
+   <properties>
+    <property name="id" value="7"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="164-Small06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV002" type="event" x="0" y="672" width="32" height="32">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,4]],[201,1,[0,230,33,3,4,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV008" type="event" x="544" y="864" width="32" height="32">
+   <properties>
+    <property name="id" value="8"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="164-Small06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV003" type="event" x="1728" y="704" width="32" height="32">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,6]],[201,1,[0,232,1,14,6,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV009" type="event" x="736" y="384" width="32" height="32">
+   <properties>
+    <property name="id" value="9"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="164-Small06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV004" type="event" x="1216" y="0" width="32" height="32">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,8]],[201,1,[0,234,9,13,8,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV010" type="event" x="1408" y="832" width="32" height="32">
+   <properties>
+    <property name="id" value="10"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="164-Small06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="true"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="55" height="35">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAADsAAAACAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAOQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA7AAAAAgAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAADkAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAOwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA5AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAADUAAAALAAAAAwAAAAEAAAABAAAAAQAAAAEAAAABAAAAOQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAOwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAADkAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAADsAAAACAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA5AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA7AAAAAgAAAAEAAAABAAAAAQAAAAEAAAABAAAAOQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAOwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAADkAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQgAAAEMAAAACAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAA5AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAEoAAABLAAAAAgAAAAEAAAAAAAAAAQAAAAEAAAABAAAAOQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAPQAAAEMAAABSAAAAUwAAAAoAAAABAAAAAAAAAAEAAAABAAAAAQAAAEEAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAPQAAAEMAAABLAAAAAQAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAABJAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQgAAAEMAAABLAAAAUwAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAUQAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAPQAAAEIAAABCAAAAQwAAAEoAAABLAAAAUwAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAPAAAAAEAAAABAAAAPQAAAEIAAABCAAAAQgAAAEIAAAA8AAAAAQAAAAEAAAABAAAAAQAAAD0AAABCAAAAQgAAAEIAAABCAAAAQgAAADwAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQgAAAEMAAABKAAAASgAAAEsAAABSAAAAUwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQwAAAEcAAABHAAAARwAAAEcAAABHAAAARwAAAEEAAAA8AAAAQgAAAEMAAABKAAAASgAAAEoAAABKAAAAQQAAAEIAAABCAAAAQgAAAEIAAABDAAAASgAAAEoAAABKAAAASgAAAEoAAABBAAAAQgAAADwAAAA9AAAAQgAAAEIAAABCAAAAQwAAAEoAAABLAAAAUgAAAFIAAABTAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQwAAAEgAAABPAAAATwAAAE8AAABPAAAATwAAAE8AAABGAAAAQQAAAEoAAABLAAAAUgAAAFIAAABSAAAAUgAAAEkAAABKAAAASgAAAEoAAABKAAAASwAAAFIAAABSAAAAUgAAAFIAAABSAAAASQAAAEoAAABBAAAAQwAAAEoAAABKAAAASgAAAEsAAABSAAAAUwAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQwAAAEgAAABQAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAATgAAAEYAAABSAAAAUwAAAAEAAAABAAAAAQAAAAEAAABRAAAAUgAAAFIAAABSAAAAUgAAAFMAAAABAAAAAQAAAAEAAAABAAAAAQAAAFEAAABSAAAASgAAAEsAAABSAAAAUgAAAFIAAABTAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAD0AAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQwAAAEgAAABQAAAAWAAAAF8AAABfAAAAXwAAAF8AAABfAAAAXwAAAFYAAABOAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAFIAAABTAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAD0AAABDAAAARwAAAEcAAABHAAAARwAAAEcAAABHAAAARwAAAEgAAABQAAAAWAAAAGAAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABeAAAAVgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAA7AAAASAAAAE8AAABPAAAATwAAAE8AAABPAAAATwAAAE8AAABQAAAAWAAAAGAAAABoAAAAbwAAAG8AAABvAAAAbwAAAG8AAABvAAAAZgAAAF4AAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAOwAAAFAAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAGAAAABoAAAAcAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAG4AAABmAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAADsAAABYAAAAXwAAAF8AAABfAAAAXwAAAF8AAABfAAAAXwAAAGAAAABoAAAAcAAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAbgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAYAAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABoAAAAcAAAAHgAAAB4AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAOwAAAGgAAABvAAAAbwAAAG8AAABvAAAAbwAAAG8AAABvAAAAcAAAAHYAAAB2AAAAeAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAADsAAABwAAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHgAAAB2AAAAdgAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQgAAAEIAAABCAAAAQgAAAEIAAABDAAAAeAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAHYAAAB4AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAABBAAAAQgAAADwAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAPAAAAAEAAAABAAAAAQAAAAEAAAA9AAAAQwAAAEcAAABHAAAARwAAAEcAAABHAAAASAAAAHYAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAAB2AAAAeAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAARgAAAEcAAABBAAAAQgAAAEIAAAA8AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAD0AAABCAAAAQwAAAEcAAABHAAAARwAAAEcAAABHAAAARwAAAEEAAAA8AAAAAQAAAAEAAAA9AAAAQwAAAEgAAABPAAAATwAAAE8AAABPAAAATwAAAFAAAAB2AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAAdgAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAE4AAABPAAAARgAAAEcAAABHAAAAQQAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABDAAAARwAAAEgAAABPAAAATwAAAE8AAABPAAAATwAAAE8AAABGAAAAQQAAAEIAAABCAAAAQwAAAEgAAABQAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAdgAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAHYAAAB4AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAABWAAAAVwAAAE4AAABPAAAATwAAAEYAAABHAAAARwAAAEcAAABHAAAARwAAAEcAAABHAAAASAAAAE8AAABQAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAATgAAAEYAAABHAAAARwAAAEgAAABQAAAAWAAAAF8AAABfAAAAXwAAAF8AAABfAAAAYAAAAHYAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAAB2AAAAeAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAAXgAAAF8AAABWAAAAVwAAAFcAAABOAAAATwAAAE8AAABPAAAATwAAAE8AAABPAAAATwAAAFAAAABXAAAAWAAAAF8AAABfAAAAXwAAAF8AAABfAAAAXwAAAFYAAABOAAAATwAAAE8AAABQAAAAWAAAAGAAAABnAAAAZwAAAGcAAABnAAAAZwAAAGgAAAB2AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAAdgAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAGYAAABnAAAAXgAAAF8AAABfAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAXwAAAGAAAABnAAAAZwAAAGcAAABnAAAAZwAAAGcAAABeAAAAVgAAAFcAAABXAAAAWAAAAGAAAABoAAAAbwAAAG8AAABvAAAAbwAAAG8AAABwAAAAdgAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAHYAAAB4AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAABuAAAAbwAAAGYAAABnAAAAZwAAAF4AAABfAAAAXwAAAF8AAABfAAAAXwAAAF8AAABfAAAAYAAAAGcAAABoAAAAbwAAAG8AAABvAAAAbwAAAG8AAABvAAAAZgAAAF4AAABfAAAAXwAAAGAAAABoAAAAcAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAeAAAAHYAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAAB2AAAAeAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAAdgAAAHcAAABuAAAAbwAAAG8AAABmAAAAZwAAAGcAAABnAAAAZwAAAGcAAABnAAAAZwAAAGgAAABvAAAAcAAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAG4AAABmAAAAZwAAAGcAAABoAAAAcAAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHgAAAB2AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHYAAAB2AAAAdgAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAHYAAAB2AAAAdgAAAHcAAAB3AAAAbgAAAG8AAABvAAAAbwAAAG8AAABvAAAAbwAAAG8AAABwAAAAdwAAAHgAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAbgAAAG8AAABvAAAAcAAAAHgAAAB4AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB4AAAAdgAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB2AAAAdgAAAHYAAAB4AAAAdwAAAHcAAAB3AAAAdwAAAHcAAAB3AAAAdgAAAHYAAAA=
+  </data>
+ </layer>
+ <layer name="Layer 2" width="55" height="35">
+  <data encoding="base64">
+   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AAAAAAAAAAAAAAAAAAAAAJEAAACSAAAAkwAAAJQAAAAfAAAAAAAAACAAAAAUAAAAHgAAAAAAAAAFAAAAHQAAAAAAAAAcAAAABgAAAAAAAAAFAAAABQAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAACZAAAAmgAAAJsAAACcAAAAAAAAAJ0AAACeAAAAnwAAAKAAAAAfAAAAxwAAAMgAAACZAAAAmgAAAJsAAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACZAAAAmgAAAJsAAACcAAAABQAAAB4AAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAoQAAAKIAAACjAAAApAAAAAUAAAClAAAApgAAAKcAAACoAAAABQAAAM8AAADQAAAAoQAAAKIAAACjAAAApAAAAAAAAAAAAAAAHwAAAAUAAAAeAAAAoQAAAKIAAACjAAAApAAAAB0AAAAAAAAAAAAAAAUAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAKkAAACqAAAAqwAAAKwAAAAfAAAAIAAAAK4AAACvAAAAsAAAAB8AAADXAAAA2AAAAKkAAACqAAAAqwAAAKwAAAAgAAAABQAAABwAAAAgAAAABgAAAKkAAACqAAAAqwAAAKwAAAAAAAAABQAAAAAAAAAcAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAABQAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAUAAAAAAAAAIAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAdAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAB0AAAAFAAAAAAAAAB0AAAAFAAAAHAAAAAUAAAAAAAAAAAAAAAAAAAAFAAAAtwAAALgAAAAFAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAHAAAAAUAAAAAAAAAsQAAALIAAACyAAAAsgAAALIAAACyAAAAsgAAALIAAACyAAAAsgAAALIAAACyAAAAsgAAALIAAACyAAAAsgAAALIAAACyAAAAsgAAALIAAACyAAAAsgAAAAAAAAAfAAAABQAAAI4AAACPAAAAkAAAAAUAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAHgAAAI4AAACPAAAAHgAAAL8AAADAAAAAHAAAAIkAAACKAAAAiwAAABQAAAAcAAAAjgAAAI8AAACQAAAABQAAAB0AAAAAAAAAAAAAALkAAAC6AAAAugAAALoAAAC6AAAAugAAALoAAAC6AAAAugAAALoAAAC6AAAAugAAALoAAAC6AAAAugAAALoAAAC6AAAAugAAALoAAAC6AAAAugAAALoAAAAAAAAAAAAAAJUAAACWAAAAlwAAAJgAAAAgAAAABQAAAIkAAACKAAAAiwAAAAUAAAC3AAAAuAAAAJUAAACWAAAAlwAAAJgAAADHAAAAyAAAAB0AAACRAAAAkgAAAJMAAACUAAAAlQAAAJYAAACXAAAAmAAAABQAAAAFAAAAHQAAAAAAAADBAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAwgAAAMIAAADCAAAAAAAAAAAAAACdAAAAngAAAJ8AAACgAAAAFAAAAB0AAACRAAAAkgAAAJMAAACUAAAAvwAAAMAAAACdAAAAngAAAJ8AAACgAAAAzwAAANAAAAAgAAAAmQAAAJoAAACbAAAAnAAAAJ0AAACeAAAAnwAAAKAAAAAgAAAABgAAACAAAAAeAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApQAAAKYAAACnAAAAqAAAAB4AAAAFAAAAmQAAAJoAAACbAAAAnAAAAMcAAADIAAAApQAAAKYAAACnAAAAqAAAANcAAADYAAAABQAAAKEAAACiAAAAowAAAKQAAAClAAAApgAAAKcAAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK0AAACuAAAArwAAALAAAAAfAAAAHAAAAKEAAACiAAAAowAAAKQAAADPAAAA0AAAAB8AAACuAAAArwAAALAAAAAAAAAAAAAAAAAAAACpAAAAqgAAAKsAAACsAAAAHgAAAK4AAACvAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAABQAAAAYAAACpAAAAqgAAAKsAAACsAAAA1wAAANgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAABQAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer name="Layer 3" width="55" height="35">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMkAAADKAAAAygAAAMoAAADKAAAAygAAAMoAAADKAAAAygAAAMoAAADKAAAAygAAAMoAAADKAAAAygAAAMoAAADKAAAAygAAAMoAAADKAAAAygAAAMoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAAAA0gAAANIAAADSAAAA0gAAANIAAADSAAAA0gAAANIAAADSAAAA0gAAANIAAADSAAAA0gAAANIAAADSAAAA0gAAANIAAADSAAAA0gAAANIAAADSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+</map>

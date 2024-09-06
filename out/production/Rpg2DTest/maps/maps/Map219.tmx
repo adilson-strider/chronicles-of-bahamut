@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="id" value="219"/>
+  <property name="autoplay_bgm" value="true"/>
+  <property name="autoplay_bgs" value="false"/>
+  <property name="bgm" value="[213-snow-town-raynu,100,100]"/>
+  <property name="bgs" value="[80,100]"/>
+  <property name="encounter_list" value="[]"/>
+  <property name="encounter_step" value="30"/>
+ </properties>
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="id" value="22"/>
+   <property name="name" value="Snow Town In"/>
+   <property name="tileset_name" value="022-SnowTown02"/>
+   <property name="panorama_name" value=""/>
+   <property name="panorama_hue" value="0"/>
+   <property name="fog_name" value=""/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="battleback_name" value="022-SnowTown02"/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,16,16,16,16,31,31,31,31,31,31,31,31,31,16,16,16,16,16,31,31,31,31,16,16,31,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,1,1,1,0,0,0,15,15,143,143,143,0,0,0,15,15,8,8,8,0,0,0,0,0,15,15,15,15,15,0,0,9,15,15,15,0,0,0,0,1,0,0,0,0,0,15,15,9,0,0,0,0,0,15,0,8,0,15,15,15,15,1,1,0,0,0,0,0,0,8,8,15,1,1,1,1,0,1,1,15,8,8,8,1,15,8,8,15,15,8,15,0,0,0,0,0,15,0,15,4,0,2,0,0,15,0,15,0,8,0,0,0,1,1,1,1,143,143,1,0,143,8,8,8,143,143,8,0,8,15,15,15,15,0,0,0,1,1,1,0,0,15,0,0,8,8,8,15,15,0,0,0]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,2,0,0,0,0,2,2,2,2,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,1,1]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+  </properties>
+  <image source="..\/images\/tilesets\/022-SnowTown02.png" width="256" height="736"/>
+ </tileset>
+ <objectgroup name="Events" width="20" height="15">
+  <object name="EV005" type="event" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="5"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV006" type="event" x="256" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV001" type="event" x="128" y="416" width="32" height="32">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV007" type="event" x="416" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="7"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV002" type="event" x="448" y="416" width="32" height="32">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="75"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[41,[184-Light01,0,6,1]],[15,[4]],[41,[184-Light01,0,6,2]],[15,[4]],[41,[184-Light01,0,6,3]],[15,[4]],[41,[184-Light01,0,6,0]],[15,[4]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV008" type="event" x="256" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="8"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[111,0,[6,-1,2]],[201,1,[0,216,9,34,2,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV003" type="event" x="0" y="352" width="32" height="32">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="3"/>
+    <property name="list" value="[[236,0,[0,9,0]],[116,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV009" type="event" x="352" y="256" width="32" height="32">
+   <properties>
+    <property name="id" value="9"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="2"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,1,5]],[101,0,[\c[3]Determined Crusader\c[0]]],[401,0,[Hmm, I wonder if I should use a spear or a sword...]],[122,0,[3,3,0,0,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV004" type="event" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="105"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="147-Storekeeper01"/>
+    <property name="character_hue" value="10"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,1,5]],[101,0,[\c[3]Shopkeeper\c[0]]],[401,0,[Interested in our supplies?]],[102,0,[[Potions/Herbs,Weapons,Armors],5]],[402,0,[0,Potions/Herbs]],[302,1,[0,1]],[605,1,[0,2]],[605,1,[0,4]],[605,1,[0,5]],[605,1,[0,9]],[605,1,[0,10]],[605,1,[0,11]],[605,1,[0,12]],[605,1,[0,33]],[122,1,[3,3,0,1,5]],[101,1,[\c[3]Shopkeeper\c[0]]],[401,1,[Thank you for your patronage!]],[0,1,[]],[402,0,[1,Weapons]],[302,1,[1,3]],[605,1,[1,4]],[605,1,[1,7]],[605,1,[1,8]],[605,1,[1,11]],[605,1,[1,12]],[605,1,[1,15]],[605,1,[1,16]],[605,1,[1,19]],[605,1,[1,20]],[605,1,[1,23]],[605,1,[1,24]],[605,1,[1,27]],[605,1,[1,28]],[605,1,[1,31]],[605,1,[1,32]],[122,1,[3,3,0,1,5]],[101,1,[\c[3]Shopkeeper\c[0]]],[401,1,[Thank you for your patronage!]],[0,1,[]],[402,0,[2,Armors]],[302,1,[2,3]],[605,1,[2,4]],[605,1,[2,7]],[605,1,[2,8]],[605,1,[2,11]],[605,1,[2,12]],[605,1,[2,15]],[605,1,[2,16]],[605,1,[2,19]],[605,1,[2,20]],[605,1,[2,23]],[605,1,[2,24]],[122,1,[3,3,0,1,5]],[101,1,[\c[3]Shopkeeper\c[0]]],[401,1,[Thank you for your patronage!]],[0,1,[]],[403,0,[]],[0,1,[]],[404,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAASAAAAEgAAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAKAAAAAQAAAAIAAAABAAAACgAAAAEAAAACAAAAAgAAAAEAAAAKAAAAAQAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAEAAAACAAAAAgAAAAIAAAABAAAAAgAAAAIAAAACAAAAAgAAAAEAAAACAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAABQAAAAUAAAAFAAAABQAAAAAAAAAAAAAAAAAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAFAAAABQAAAAUAAAAFAAAAAAAAAAAAAAAAAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAUAAAAEAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAFAAAABAAAAAUAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAoAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEAAAAKAAAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAcAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAG0AAAAAAAAAAAAAADAAAABtAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAACUAAAAmAAAAdQAAACQAAAAlAAAAJgAAAHUAAAAkAAAAJQAAACYAAAAAAAAAJAAAACUAAAAmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALQAAAC4AAAAAAAAALAAAAC0AAAAuAAAAAAAAACwAAAAtAAAALgAAAAAAAAAsAAAALQAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAA1AAAANgAAAAAAAAA0AAAANQAAADYAAAAAAAAANAAAADUAAAA2AAAAAAAAADQAAAA1AAAANgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaQAAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAawAAAF4AAABfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxAAAAcQAAAAAAAAAAAAAAAAAAAAAAAACXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzAAAAZgAAAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArQAAAK0AAACtAAAAbQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAAAAKAAAACgAAAAAAAAAKgAAACnAAAAAAAAAAAAAAC1AAAAtQAAALUAAAB1AAAAqAAAAKgAAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAClAAAApAAAAKUAAAAAAAAApAAAAKIAAACjAAAAAAAAAKwAAACsAAAArAAAAAAAAACoAAAAqAAAAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACiAAAAowAAAAAAAAClAAAApQAAAKUAAAAAAAAAtAAAALQAAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+</map>

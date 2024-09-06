@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="id" value="234"/>
+  <property name="autoplay_bgm" value="true"/>
+  <property name="autoplay_bgs" value="false"/>
+  <property name="bgm" value="[2.23-blue-gloom,100,100]"/>
+  <property name="bgs" value="[80,100]"/>
+  <property name="encounter_list" value="[]"/>
+  <property name="encounter_step" value="30"/>
+ </properties>
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="id" value="8"/>
+   <property name="name" value="Snow Field"/>
+   <property name="tileset_name" value="008-Snowfield01"/>
+   <property name="panorama_name" value="snow-mountain-wallpaper-2"/>
+   <property name="panorama_hue" value="0"/>
+   <property name="fog_name" value=""/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="battleback_name" value="Snow field"/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,64,64,64,0,64,15,15,15,64,64,64,64,64,10,8,12,0,0,0,64,64,2,15,4,1,1,1,10,12,15,15,15,2,15,4,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,15,15,15,15,15,15,0,0,15,15,15,15,15,2,4,15,15,15,15,15,15,2,4,0,15,15,15,15,15,15,15,15,15,15,15,15,0,15,15,6,15,15,15,15,0,15,0,6,0,15,15,8,0,8,0,0,15,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,15,15,0,15,15,15,15,0,15,0,0,0,0,0,15,0,15,0,0,15,15,15,15,0,15,0,0,1,1,1,0,0,0,0,0,15,15,15,0,0,0,15,15]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,1,5,5,0,0,0,0,0,0,4,4,0,0,0,0,0,0,3,3,1,1,1,0,0,0,2,2,0,0,0,0,2,2,0,0]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+  </properties>
+  <image source="..\/images\/tilesets\/008-Snowfield01.png" width="256" height="864"/>
+ </tileset>
+ <objectgroup name="Events" width="20" height="15">
+  <object name="EV001" type="event" x="384" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="174-Chest01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[250,0,[#<RPG::AudioFile:0xb934380>]],[209,0,[0,#<RPG::MoveRoute:0xb934278>]],[509,0,[#<RPG::MoveCommand:0xb934200>]],[509,0,[#<RPG::MoveCommand:0xb934188>]],[509,0,[#<RPG::MoveCommand:0xb934128>]],[509,0,[#<RPG::MoveCommand:0xb9340b0>]],[509,0,[#<RPG::MoveCommand:0xb934050>]],[509,0,[#<RPG::MoveCommand:0xb933fd8>]],[210,0,[]],[250,0,[#<RPG::AudioFile:0xb933be8>]],[122,0,[3,3,0,0,0]],[101,0,[Got 1 Dragon Sword!]],[127,0,[33,0,0,1]],[123,0,[A,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV002" type="event" x="384" y="192" width="32" height="32">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[250,0,[#<RPG::AudioFile:0xb933078>]],[207,0,[-1,98]],[209,0,[-1,#<RPG::MoveRoute:0xb932f58>]],[509,0,[#<RPG::MoveCommand:0xb932ef8>]],[210,0,[]],[106,0,[20]],[207,0,[3,18]],[121,0,[221,221,0]],[106,0,[20]],[250,0,[#<RPG::AudioFile:0xb932b98>]],[106,0,[20]],[132,0,[#<RPG::AudioFile:0xb932a78>]],[301,0,[95,false,false]],[132,0,[#<RPG::AudioFile:0xb932958>]],[121,0,[221,221,1]],[123,0,[A,0]],[106,0,[20]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="WW" type="event" x="384" y="256" width="32" height="32">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="221"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="099-Monster13"/>
+    <property name="character_hue" value="180"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV004" type="event" x="288" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[201,1,[0,231,38,1,2,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="20" height="15">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAD0AAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAAA8AAAAAQAAAAEAAAA9AAAAQwAAAEoAAABKAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAASgAAAEoAAABKAAAASgAAAEEAAAA8AAAAAQAAADsAAABLAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAASQAAADkAAAABAAAAOwAAAFMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAABRAAAAOQAAAAEAAAA7AAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAA5AAAAAQAAADsAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAADkAAAABAAAAOwAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAOQAAAAEAAAA7AAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAA5AAAAAQAAADsAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAADkAAAABAAAAOwAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAOQAAAAEAAAA7AAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAA5AAAAAQAAADsAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAADkAAAABAAAANQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAANAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAHwAAACAAAAAeAAAABQAAAAYAAAAcAAAAHQAAAAAAAAAAAAAABgAAAAAAAAA6AAAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAdAAAAIAAAAAAAAAAAAAAAAAAAAB4AAAAIAAAAIAAAAAAAAAAAAAAAAAAAABkAAAAaAAAAGgAAABsAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAACIAAAAiAAAAJQAAABoAAAAbAAAABgAAADoAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAFAAAADoAAAAAAAAAHQAAABkAAAAkAAAAIgAAACIAAAAiAAAAIgAAACUAAAAbAAAAHAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAHAAAAB4AAAAAAAAAIQAAACIAAAAiAAAAIgAAACIAAAAiAAAAIgAAACMAAAAAAAAAHAAAAB8AAAAeAAAAAAAAAAAAAAAAAAAAIAAAAB8AAAAAAAAABQAAAB0AAAApAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKwAAAAAAAAA6AAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAAAAAAAAfAAAAIAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADMAAAAAAAAAMQAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAOwAAAAAAAAA5AAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="id" value="168"/>
+  <property name="autoplay_bgm" value="true"/>
+  <property name="autoplay_bgs" value="false"/>
+  <property name="bgm" value="[03_Cathedral,90,100]"/>
+  <property name="bgs" value="[80,100]"/>
+  <property name="encounter_list" value="[]"/>
+  <property name="encounter_step" value="30"/>
+ </properties>
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="id" value="42"/>
+   <property name="name" value="Evil Castle In"/>
+   <property name="tileset_name" value="042-EvilCastle02"/>
+   <property name="panorama_name" value="Dark world"/>
+   <property name="panorama_hue" value="150"/>
+   <property name="fog_name" value=""/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="battleback_name" value="Evil Castle"/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,15,0,0,0,15,15,15,0,0,0,15,15,10,8,12,15,15,15,15,15,2,0,4,15,15,15,0,0,15,15,15,15,15,15,0,0,15,15,15,15,15,15,0,0,15,15,15,15,15,15,0,0,15,15,15,15,15,0,0,0,15,15,15,15,15,15,15,15,15,15,15,0,15,15,0,15,15,15,15,15,15,15,15,15,15,0,0,15,15,15,15,15,15,1,1,0,0,0,0,0,0,8,8,0,0,0,0,0,0,0,0,15,15,15,15,0,0,0,0,1,1,1,0,0,0,1,0,143,143,143,0,0,15,8,15,8,8,8,0,0,15,0,15,0,0,0,0,0,8,0,8,6,0,0,0,8,0,0,0,0,15,0,15,15,0,0,0,0,15,15,15,0,0,0,0,15,8,15,0,0,0,0,0,15,0,15,4,0,2,0,0,15,0,15,0,8,0,0,0]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+  </properties>
+  <image source="..\/images\/tilesets\/042-EvilCastle02.png" width="256" height="832"/>
+ </tileset>
+ <objectgroup name="Events" width="20" height="15">
+  <object name="Beacon1" type="event" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="id" value="5"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="199-Support07"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="4"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV011" type="event" x="544" y="416" width="32" height="32">
+   <properties>
+    <property name="id" value="11"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="3"/>
+    <property name="list" value="[[223,0,[(-255.000000, -255.000000, -255.000000, 0.000000),20]],[106,0,[20]],[121,0,[164,164,0]],[201,0,[0,168,7,9,8,0]],[106,0,[20]],[223,0,[(0.000000, 0.000000, 0.000000, 0.000000),20]],[106,0,[20]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[The flow of energy from the beacons has stopped.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[And to top it off, the flow from the White Witch's ]],[401,0,[beacon was the first to disappear.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Let me guess, this could be the work of the White ]],[401,0,[Witch herself right?]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[HAHAHA!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[But there's more...]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Someone decided to be that annoying little brother ]],[401,0,[who always meddled with my affairs.]],[235,0,[1]],[209,0,[10,#<RPG::MoveRoute:0xbb9be90>]],[509,0,[#<RPG::MoveCommand:0xbb9be30>]],[210,0,[]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Oh!! It's Cesar, what a surprise!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Rhetz! You bastard!! ]],[235,0,[1]],[106,0,[20]],[207,0,[13,101]],[121,0,[165,165,0]],[106,0,[20]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[You think I wouldn't find out? Huh?!?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I always knew you were up to something!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[How adorable, someone's been sneaking into my ]],[401,0,[office to read my journal.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Like a teenage girl, curious of her roommate's ]],[401,0,[secrets! Hahahahah!!!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Hah!! You left it open at your table!!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Awww, looks like someone's a little defensive!]],[122,0,[3,3,0,0,12]],[122,0,[4,4,0,0,2]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Enough!! ]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Rhetz!! You better explain yourself, NOW!!]],[122,0,[4,4,0,0,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Tell me.]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[What's with all the Demons around this place helping ]],[401,0,[your cursed Templars, huh?!]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[The beacons and the mages?!]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[And what's with the "Holy Chancellor" giving around ]],[401,0,[orders not to let me in?! huh?!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[...]],[235,0,[1]],[106,0,[20]],[250,0,[#<RPG::AudioFile:0xbb9a2a0>]],[121,0,[165,165,1]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[You want some explanations? Very well.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[The Goddess has long searched for her Champion ]],[401,0,[and I answered the call.]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I've heard that silly myth countless of times already! ]],[401,0,[Get to the damn point!!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Hmpf!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[My Point is...]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[It is written that the Champion will hold tremendous ]],[401,0,[Godlike powers.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[The Champion is going to be the voice that will ]],[401,0,[change everything around Vyen!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Through the Champion's call, the world shall be at ]],[401,0,[peace once more!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Don't you want that?? I, your beloved brother, the ]],[401,0,[Champion of the Goddess!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[I will put Order in this world!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Huh?!?! Through the help of Magic and Demons?!?!?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[You're on the brink of Insanity, Rhetz! ]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[The Goddess must be looking down at you, weeping!!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Be quiet, fool!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[When the Goddess fulfills her prophecies, I believe ]],[401,0,[that sacrifices must be in order!]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Sacrifices?!?!? ]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Are you saying that those people at Quelengarde are ]],[401,0,[sacrifices to your plot of Insanity?!?!]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[The numbers of crusaders that has fallen at Tower ]],[401,0,[of Barbara from the hands of demons are sacrifices?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Have you forgotten why we became members of the ]],[401,0,[Holy Order?? Huh?!?!]],[122,0,[4,4,0,0,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Don't take me for a fool, Rhetz!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[It is written in the Tome of Vyena that the greatest ]],[401,0,[Light attracts the greatest Evil.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[If the demons never came, then I wouldn't be able to ]],[401,0,[find the blessed White Witch herself!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Think about it! Everything happens for a reason!!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[The White Witch is the lamb that will conclude the ]],[401,0,[becoming of the Champion of Vyena!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[So... you're using the demons to lure the White Witch, ]],[401,0,[huh?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I am impressed.]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[As you should be...]],[235,0,[1]],[106,0,[20]],[209,0,[10,#<RPG::MoveRoute:0xbb97888>]],[509,0,[#<RPG::MoveCommand:0xbb97828>]],[210,0,[]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Now, White Witch. Why don't you be a good lamb and ]],[401,0,[offer your blood to the Goddess?]],[122,0,[3,3,0,0,0]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[No!! This is not what the Goddess wants!! ]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[Calling demons to kill many innocent people?? How ]],[401,0,[could you?!?]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Then you've still got a lot to learn...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Rhetz...]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Hm?]],[235,0,[1]],[106,0,[20]],[209,0,[10,#<RPG::MoveRoute:0xbb96940>]],[509,0,[#<RPG::MoveCommand:0xbb968e0>]],[209,0,[12,#<RPG::MoveRoute:0xbb96760>]],[509,0,[#<RPG::MoveCommand:0xbb96700>]],[210,0,[]],[207,0,[12,1]],[106,0,[20]],[207,0,[10,64]],[106,0,[20]],[207,0,[10,113]],[224,0,[(255.000000, 255.000000, 255.000000, 255.000000),10]],[106,0,[20]],[207,0,[12,141]],[209,0,[12,#<RPG::MoveRoute:0xbb961c0>]],[509,0,[#<RPG::MoveCommand:0xbb96160>]],[509,0,[#<RPG::MoveCommand:0xbb96100>]],[509,0,[#<RPG::MoveCommand:0xbb960a0>]],[210,0,[]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Uhg!!]],[209,0,[-1,#<RPG::MoveRoute:0xbb95c38>]],[509,0,[#<RPG::MoveCommand:0xbb95bd8>]],[210,0,[]],[122,0,[3,3,0,0,0]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[Sir Cesar!!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[How comical.]],[235,0,[1]],[209,0,[-1,#<RPG::MoveRoute:0xbb95608>]],[509,0,[#<RPG::MoveCommand:0xbb955a8>]],[210,0,[]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Now then, my dear lady, the Goddess awaits your ]],[401,0,[open mind.]],[122,0,[3,3,0,0,0]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[Chancellor Rhetz!! Please, stop this!!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Rhetz...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[You think this is over??]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[You don't know me well enough then.]],[122,0,[4,4,0,0,2]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[BROTHER!!]],[235,0,[1]],[209,0,[12,#<RPG::MoveRoute:0xbb948d0>]],[509,0,[#<RPG::MoveCommand:0xbb94870>]],[509,0,[#<RPG::MoveCommand:0xbb94810>]],[210,0,[]],[132,0,[#<RPG::AudioFile:0xbb945d0>]],[301,0,[81,false,false]],[132,0,[#<RPG::AudioFile:0xbb944b0>]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Enough!!!]],[122,0,[4,4,0,0,0]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Huff..huff..]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Never underestimate me again, Rhetz!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Ahahaha!! Don't make me laugh!!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[What?!]],[235,0,[1]],[242,0,[10]],[106,0,[20]],[207,0,[4,110]],[106,0,[20]],[207,0,[4,110]],[106,0,[20]],[122,0,[3,3,0,0,0]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[The Holy Stone!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Huh?!]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Your wit has failed you Cesar.]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[What are you going on about now you bastard?]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[For someone who've read my journal. You've proven ]],[401,0,[yourself to be mediocore in the thinking aspects.]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[What?!]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Always having your emotions win over you. Hahaha!!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[I guess I should be thanking you.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[The Holy Stone reacts willingly when a White Witch ]],[401,0,[nearby casts her white magic out of her own will.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Back then I could not make Lyrelle use magic near the ]],[401,0,[stone, so I've decided to play it slow but surely.]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[But now that you've brought me the White Witch to ]],[401,0,[help "stop me". You've hasten the process instead!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[You've gotta be kidding me...]],[122,0,[3,3,0,0,0]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[What's going on?!?!]],[235,0,[1]],[241,0,[#<RPG::AudioFile:0xbb92218>]],[106,0,[20]],[207,0,[4,110]],[106,0,[20]],[207,0,[4,110]],[106,0,[20]],[209,0,[12,#<RPG::MoveRoute:0xbb91f78>]],[509,0,[#<RPG::MoveCommand:0xbb91f18>]],[509,0,[#<RPG::MoveCommand:0xbb91eb8>]],[509,0,[#<RPG::MoveCommand:0xbb91e58>]],[210,0,[]],[207,0,[5,110]],[207,0,[6,110]],[207,0,[7,110]],[207,0,[8,110]],[207,0,[9,110]],[106,0,[20]],[121,0,[169,169,0]],[207,0,[10,142]],[106,0,[30]],[207,0,[5,18]],[207,0,[6,18]],[207,0,[7,18]],[207,0,[8,18]],[207,0,[9,18]],[121,0,[167,167,0]],[106,0,[40]],[207,0,[10,142]],[106,0,[40]],[207,0,[4,110]],[121,0,[168,168,0]],[106,0,[20]],[207,0,[10,20]],[106,0,[20]],[121,0,[166,166,0]],[106,0,[20]],[122,0,[3,3,0,0,0]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[The Holy Stone!!]],[122,0,[3,3,0,0,12]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[He absorbed it's power!]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Ahhhhhh!! At last!! Divinity is mine!!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[The surge of power!! ]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[I can feel them running through my veins!!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[So this is what attaining absolute power is like!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Now the people of Vyen shall marvel before the ]],[401,0,[Goddess' Champion;]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[And witness a new world of peace and order ]],[401,0,[that will soon unravel before them!]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,10]],[231,0,[1,Rhetz,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Ahahahaha!!!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[Get out of my sight, you maggots!! I have a prophecy ]],[401,0,[to fulfill!]],[101,0,[\c[3]Rhetz\c[0]]],[401,0,[First, the Champion must purify these lands!!]],[235,0,[1]],[207,0,[10,100]],[223,0,[(-255.000000, -255.000000, -255.000000, 0.000000),20]],[106,0,[20]],[242,0,[10]],[106,0,[40]],[250,0,[#<RPG::AudioFile:0xbb8ff20>]],[106,0,[20]],[121,0,[169,169,1]],[106,0,[60]],[129,0,[1,1,1]],[129,0,[8,1,1]],[129,0,[2,0,0]],[129,0,[4,0,0]],[129,0,[5,0,0]],[129,0,[6,0,0]],[129,0,[7,0,0]],[322,0,[2,Fighter,0,gallery_569_2_6581,0]],[322,0,[4,Fighter,0,Fairy 6,0]],[322,0,[5,Fighter,0,Camilla Samurai 5,0]],[322,0,[6,Fighter,0,Eric Warrior 3,0]],[322,0,[7,Fighter,0,Vannes Archer 1,0]],[106,0,[20]],[314,0,[2]],[314,0,[4]],[314,0,[5]],[314,0,[6]],[314,0,[7]],[121,0,[3,3,1]],[101,0,[Meanwhile at the Gemeid Holy Palace Dungeons.]],[106,0,[20]],[123,0,[A,0]],[201,0,[0,169,7,11,6,0]],[223,0,[(0.000000, 0.000000, 0.000000, 0.000000),20]],[106,0,[20]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Beacon1" type="event" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="199-Support07"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV001" type="event" x="256" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[201,1,[0,163,17,4,2,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Cesar" type="event" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="id" value="12"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="164"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Cesar"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Beacon1" type="event" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="7"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="199-Support07"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV002" type="event" x="288" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[201,1,[0,163,17,4,2,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Journal" type="event" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="13"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="165"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="193-Support01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="3"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Beacon1" type="event" x="352" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="8"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="199-Support07"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV003" type="event" x="224" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[201,1,[0,163,17,4,2,0]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV014" type="event" x="480" y="416" width="32" height="32">
+   <properties>
+    <property name="id" value="14"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="169"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="4"/>
+    <property name="list" value="[[225,0,[6,9,5]],[250,0,[#<RPG::AudioFile:0xbb8c920>]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Beacon1" type="event" x="352" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="9"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="199-Support07"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Stone" type="event" x="256" y="160" width="32" height="32">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="198-Support06"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Rhetz" type="event" x="256" y="192" width="32" height="32">
+   <properties>
+    <property name="id" value="10"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Rhetz"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="20" height="15">
+  <data encoding="base64">
+   GwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABsAAAAAAAAAAAAAAAAAAAAWAAAAFwAAABcAAAAXAAAAFwAAABcAAAAXAAAAFwAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGwAAAAAAAAAAAAAAAAAAAB4AAAABAAAAAQAAAAEAAAABAAAAAQAAAAMAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAbAAAAAAAAAAAAAAAAAAAAHgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABsAAAAAAAAAAAAAAAAAAAAeAAAAAQAAAAEAAAABAAAAAQAAAAEAAAADAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGwAAAAAAAAAAAAAAAAAAAB4AAAABAAAAAQAAAAMAAAABAAAAAQAAAAEAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAbAAAAAAAAAAAAAAAAAAAAHgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABsAAAAAAAAAAAAAAAAAAAAmAAAAJwAAACcAAAABAAAAAQAAAAEAAAAnAAAAJwAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAGwAAAAAAAAAAAAAAAAAAACkAAAAqAAAAKgAAAB4AAAABAAAAIAAAACoAAAAqAAAAKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkAAAAbAAAAAAAAAAAAAAAAAAAAKQAAACoAAAAqAAAAHgAAAAEAAAAgAAAAKgAAACoAAAArAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQAAABUAAAASAAAAEgAAABIAAAApAAAAKgAAACoAAAAeAAAAAQAAACAAAAAqAAAAKgAAACsAAAASAAAAEgAAABIAAAASAAAAEgAAABIAAAAUAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGwAAAB4AAAABAAAAIAAAABkAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAbAAAAHgAAAAEAAAAgAAAAGQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABsAAAAeAAAAAQAAACAAAAAZAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAEgAAABMAAAAAAAAAAAAAAAAAAAARAAAAEgAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+</map>

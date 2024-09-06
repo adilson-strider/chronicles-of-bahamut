@@ -1,0 +1,11 @@
+overworld 0
+briarwood 1
+valenor 2
+valenor-as 3
+briarwood-church 4
+dungeon1 5
+dungeon2 6
+dungeon3 7
+dungeon4 8
+
+

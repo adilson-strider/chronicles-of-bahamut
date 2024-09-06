@@ -1,0 +1,9 @@
+Instruções para adicionar um novo mapa ao jogo:
+
+1) adicionar o campo "mapNum" e o índice do mapa;
+2) mudar a compressão para CSV;
+
+Para carregar o mapa no jogo:
+
+Adicionar ao dicionário em GameManager;
+Trocar o índice na função load, da classe SaveLoad.

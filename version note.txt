@@ -1,0 +1,33 @@
+Game Loop - ok
+Key Input - ok
+Sprite - ok
+Animation - ok
+Tiles - ok
+Parsing Json - ok
+TiledMap - ok
+Sound - ok
+World/Camera - ok
+Collision Detection - ok
+Game Objects - ok
+Game States - ok
+Dialogues - ok
+UI - ok
+NPC - ok
+Enemies - ok
+Level Transition - ok
+Inventory - ok
+Items - ok
+Combat - ok
+Title Screen - ok
+Player Life - ok
+Event - ok
+Stats - ok
+Menu - ok
+Shop System - ok
+Save/Load - ok
+Cutscene - ok
+Quest - ok
+
+29/29 - 100%
+
+

@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="27">
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32" tilecount="152">
+  <properties>
+   <property name="battleback_name" value="forest"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_name" value="003-Shade01"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="id" value="3"/>
+   <property name="name" value="Forest"/>
+   <property name="panorama_hue" value="0"/>
+   <property name="panorama_name" value=""/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,16,16,16,16,31,31,31,31,31,31,31,31,31,16,16,16,16,16,31,31,31,31,16,16,31,16,16,16,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,16,16,16,16,31,31,31,31,31,31,31,31,31,16,16,16,16,16,31,31,31,31,16,16,31,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,0,15,15,0,0,0,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,0,0,0,0,15,15,0,0,15,15,0,0,15,15,0,0,15,15,0,0,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,0,0,0,0,15,15,0,0,15,15,0,0,0,0,0,0,15,15,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,0,15,15,0,15,8,0,0,0,6,2,0,4,0,0,0,0,9,0,15,15,1,0]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,0,0,4,4,4,4,4,4,2,2,3,3,3,3,3,3,0,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,5,5,5,5,5,5,2,2,4,4,4,4,4,4,0,0,3,3,3,3,3,3,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,3,3,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+   <property name="tileset_name" value="003-Forest01"/>
+  </properties>
+  <image source="../images/tilesets/003-Forest01.png" width="256" height="608"/>
+ </tileset>
+ <objectgroup name="Events">
+  <object id="1" name="EV016" type="event" x="416" y="288" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="16"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="2" name="EV005" type="event" x="384" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="5"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="3" name="EV022" type="event" x="192" y="256" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="22"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="4" name="EV011" type="event" x="416" y="256" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="11"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="5" name="EV017" type="event" x="448" y="320" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="17"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="6" name="EV006" type="event" x="416" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="6"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="7" name="EV023" type="event" x="448" y="256" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="23"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="EV012" type="event" x="288" y="288" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="12"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="Burnt alive" type="event" x="224" y="160" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-StakeLeadBurn"/>
+    <property name="direction" value="2"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="1"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="3"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="EV018" type="event" x="384" y="320" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="18"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="EV007" type="event" x="448" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="7"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="12" name="EV024" type="event" x="160" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="24"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="13" name="EV013" type="event" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="13"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="14" name="EV002" type="event" x="224" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="2"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="15" name="EV019" type="event" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="028-Cleric04"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="19"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="EV008" type="event" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="8"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="17" name="Hung" type="event" x="384" y="160" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-ToutureGallow"/>
+    <property name="direction" value="2"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="25"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="18" name="EV014" type="event" x="224" y="288" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="14"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="19" name="EV003" type="event" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="3"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="20" name="EV020" type="event" x="352" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="20"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="21" name="EV009" type="event" x="288" y="256" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="9"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="22" name="EV026" type="event" x="576" y="32" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="direction" value="2"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="26"/>
+    <property name="list" value=""/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="3"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="23" name="EV015" type="event" x="192" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="15"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="24" name="EV004" type="event" x="288" y="224" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="4"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="25" name="EV021" type="event" x="224" y="320" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="Crusader"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="21"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+  <object id="26" name="EV010" type="event" x="384" y="256" width="32" height="32">
+   <properties>
+    <property name="always_on_top" value="false"/>
+    <property name="blend_type" value="0"/>
+    <property name="character_hue" value="0"/>
+    <property name="character_name" value="LOS-WhiteCloakMan"/>
+    <property name="direction" value="8"/>
+    <property name="direction_fix" value="false"/>
+    <property name="id" value="10"/>
+    <property name="list" value="[[0,0,[]]]"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_type" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="pattern" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="step_anime" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_id" value="1"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="through" value="false"/>
+    <property name="tile_id" value="0"/>
+    <property name="trigger" value="0"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_valid" value="false"/>
+    <property name="variable_value" value="0"/>
+    <property name="walk_anime" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="20" height="15">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="20" height="15">
+  <data encoding="base64">
+   AAAAACEAAAAiAAAAIwAAACQAAAAlAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAIgAAACMAAAAkAAAAJQAAACYAAAAAAAAAKQAAACoAAAArAAAALAAAAC0AAAATAAAACgAAAAAAAAAOAAAAAAAAAAAAAAANAAAACgAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAAAAAAAxAAAAMgAAADMAAAA0AAAANQAAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAAAAAAAAAMQAAADIAAAAzAAAANAAAADUAAAA2AAAAAAAAADkAAAA6AAAAOwAAADwAAAA9AAAAPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAAAAAAAQQAAAEIAAABDAAAARAAAAEUAAABGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAbAAAAHAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAHQAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwAAAAAAAAANAAAAAAAAAAAAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAASgAAAEsAAABMAAAATQAAAFEAAABSAAAAUwAAAFQAAABVAAAAVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEAAABSAAAAUwAAAFQAAABVAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWQAAAFoAAABbAAAAXAAAAF0AAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAAAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGkAAABqAAAAawAAAGwAAABtAAAADQAAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkAAABqAAAAawAAAGwAAABtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+</map>

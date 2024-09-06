@@ -1,0 +1,65 @@
+Cutscene mostra mapa
+
+cutsceneManager.addEvent(new MoveCharacterAction(GameManager.getPlayer(), new Point(GameManager.tileSize * 29, GameManager.tileSize * 26), 2));
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Olá, bem-vindo à nossa vila!",
+        }));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Agora, vamos conhecer um pouco do mapa..."
+        }));
+
+        cutsceneManager.addEvent(new MoveCharacterAction(GameManager.getPlayer(), new Point(GameManager.tileSize * 29, GameManager.tileSize * 27), 2));
+
+        // Adiciona um movimento de câmera
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(100, 100), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Essa é a posição 100, 100 do mapa.",
+                "Ao que tudo parece...",
+                "Só tem água aqui... Hahahah",
+                "Desculpe...",
+                "Vamos continuar com o tour."
+        }));
+
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(GameManager.tileSize * 7, GameManager.tileSize * 66), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Rodeada por densos campos de espinheiros, Thornfield é uma cidade pacífica e autossuficiente.",
+                "Seus habitantes são exímios boticários e herboristas."
+        }));
+
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(GameManager.tileSize * 53, GameManager.tileSize * 65), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "O porto mais famoso do mundo! Arkanab'aar",
+                "São os melhores preços que já pude encontrar!"
+        }));
+
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(GameManager.tileSize * 78, GameManager.tileSize * 60), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Conhecida por suas forjas de metal e armas incomparáveis",
+                "Ironforge é habitada por mestres ferreiros e engenheiros que produzem armamentos lendários"
+        }));
+
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(GameManager.tileSize * 119, GameManager.tileSize * 73), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Situada em uma tundra gelada, Frosthaven é uma cidade resistente e engenhosa.",
+                "Seus moradores são famosos por suas habilidades de sobrevivência e arquitetura de gelo."
+        }));
+
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(GameManager.tileSize * 113, GameManager.tileSize * 7), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Windshire e Highgard...",
+                "Muitos gerreiros honrados passaram por esses lugares..."
+        }));
+
+        cutsceneManager.addEvent(new MoveCameraAction(cutsceneManager.getCutsceneCamera(), new Point(GameManager.tileSize * 65, GameManager.tileSize * 4), 5));
+
+        cutsceneManager.addEvent(new DialogueAction(new String[]{
+                "Por fim, o deserto de Zahara!",
+                "Não se sabe muito o que se passa por essas dunas, mas é sempre bom ter cuidado com os vermes comedores de humanos..."
+        }));

@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="id" value="286"/>
+  <property name="autoplay_bgm" value="true"/>
+  <property name="autoplay_bgs" value="false"/>
+  <property name="bgm" value="[KuruKuruKuru,100,100]"/>
+  <property name="bgs" value="[80,100]"/>
+  <property name="encounter_list" value="[]"/>
+  <property name="encounter_step" value="30"/>
+ </properties>
+ <tileset firstgid="1" name="Main Tileset" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="id" value="64"/>
+   <property name="name" value="Violet Forest"/>
+   <property name="tileset_name" value="Violet Forest"/>
+   <property name="panorama_name" value=""/>
+   <property name="panorama_hue" value="0"/>
+   <property name="fog_name" value="003-Shade01"/>
+   <property name="fog_hue" value="0"/>
+   <property name="fog_opacity" value="64"/>
+   <property name="fog_blend_type" value="0"/>
+   <property name="fog_zoom" value="200"/>
+   <property name="fog_sx" value="0"/>
+   <property name="fog_sy" value="0"/>
+   <property name="battleback_name" value="Purple forest"/>
+   <property name="passages" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,16,16,16,16,31,31,31,31,31,31,31,31,31,16,16,16,16,16,31,31,31,31,16,16,31,16,16,16,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,16,16,16,16,31,31,31,31,31,31,31,31,31,16,16,16,16,16,31,31,31,31,16,16,31,16,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,0,15,15,0,0,0,15,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,0,0,0,0,15,15,0,0,15,15,0,0,15,15,0,0,15,15,0,0,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,0,0,0,0,0,0,15,15,0,0,15,15,0,0,0,0,0,0,15,15,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,0,15,15,0,15,8,0,0,0,6,2,0,4,0,0,0,0,9,0,15,15,1,0]"/>
+   <property name="priorities" value="[5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,0,0,4,4,4,4,4,4,2,2,3,3,3,3,3,3,0,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,5,5,5,5,5,5,2,2,4,4,4,4,4,4,0,0,3,3,3,3,3,3,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,3,3,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+   <property name="terrain_tags" value="[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"/>
+  </properties>
+  <image source="..\/images\/tilesets\/Violet Forest.png" width="256" height="608"/>
+ </tileset>
+ <objectgroup name="Events" width="20" height="15">
+  <object name="EV027" type="event" x="256" y="0" width="32" height="32">
+   <properties>
+    <property name="id" value="27"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,8]],[102,1,[[Continue Journey?,Still need time to relax...],2]],[402,1,[0,Continue Journey?]],[121,2,[281,281,0]],[201,2,[0,287,22,53,8,0]],[0,2,[]],[402,1,[1,Still need time to relax...]],[209,2,[-1,#<RPG::MoveRoute:0xbb374f8>]],[509,2,[#<RPG::MoveCommand:0xbb37498>]],[210,2,[]],[0,2,[]],[404,1,[]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV016" type="event" x="256" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="16"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[102,1,[[Continue Journey?,Still need time to relax...],2]],[402,1,[0,Continue Journey?]],[121,2,[281,281,0]],[201,2,[0,285,21,1,2,0]],[0,2,[]],[402,1,[1,Still need time to relax...]],[209,2,[-1,#<RPG::MoveRoute:0xbb38488>]],[509,2,[#<RPG::MoveCommand:0xbb38428>]],[210,2,[]],[0,2,[]],[404,1,[]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV005" type="event" x="544" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="5"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="169-Small11"/>
+    <property name="character_hue" value="70"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="1"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Fence" type="event" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="id" value="11"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Fence"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[That's really quite amazing, Hanni. You being able to ]],[401,0,[access the fabric of time like that?]],[101,0,[\c[3]Fence\c[0]]],[401,0,[Seeing what was, what is and what is yet to come?]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[Oh umm.. My powers still aren't that perfect yet, ]],[401,0,[Fence. I--I think I still need more practice at focusing.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[I see. For one that's still practicing, I think you're ]],[401,0,[already efficient enough as you are.]],[101,0,[\c[3]Fence\c[0]]],[401,0,[I mean, you are the reason why we were still able ]],[401,0,[to reach Gemeid and prevented any further deaths.]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[I--uh *blushes* It-it really wasn't all because of me. It ]],[401,0,[was because you all believed in my powers.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[That is to be expected, Hanni. I know exactly how it ]],[401,0,[feels like to be born different.]],[101,0,[\c[3]Fence\c[0]]],[401,0,[So there's no reason for me nor the Chancellor and ]],[401,0,[her friends to ever doubt you.]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[Wow.. Fence. Umm-- I.. thank you.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[We magic-users must always have each others' ]],[401,0,[backs.]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[You're right, Fence. We, Lyrelle and Luna understand ]],[401,0,[this pain very much.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[Indeed, Hanni.]],[235,0,[1]],[121,0,[278,278,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Ophelia" type="event" x="416" y="256" width="32" height="32">
+   <properties>
+    <property name="id" value="22"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="true"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="211"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="031-Cleric07"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* I already told you, Krizza. I am not afraid of little ]],[401,0,[bugs!]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Hm? Then prove it!! See this centipede over he---]],[235,0,[1]],[207,0,[18,98]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[GET THAT THING AWAY FROM ME!!]],[235,0,[1]],[122,0,[4,4,0,0,0]],[106,0,[20]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Bwahahah!! Are you kidding me? I've tried eating a ]],[401,0,[bug as a snack before!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[*giggles* Oh dear!]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[You know, having a phobia is quite normal.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Look, I am not afraid of that... THING! Okay?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I just find them eerie to the touch.]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Awww come on, Cesar! Just try it..]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? I'm putting it on my hands and nothing bad's]],[401,0,[happening.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Uhg! How are you touching that filth so comfortably?]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Cause it's okay!! We all wanna see Cesar touch this ]],[401,0,[bug, right guys?]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*chuckles* Just do it, man!! You're a Paladin yet you ]],[401,0,[can't touch a little bug? Pffffft!!]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Silence, Clark!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[It really isn't that bad. Try to conquer your fears, ]],[401,0,[Cesar.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I already told you, It's not a fear!!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Go Cesar!! Tee-hee! You can do it!!]],[122,1,[3,3,0,0,18]],[231,1,[1,Cesar,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Cesar\c[0]]],[401,1,[*sigh* Not you too, Lady Ophelia.]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[I swear, it isn't that bad!! Here, give me your hand.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* Fine... this is a waste of time.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? Nice and easy.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[There you go!! Congrats, you've finally touched a little ]],[401,0,[bug!!]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Add'a boy!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now you're worthy of the title "Paladin".]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Yey!! You did it ! *giggles*]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Whatever...]],[235,0,[1]],[121,0,[279,279,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV006" type="event" x="288" y="288" width="32" height="32">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="194-Support02"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="3"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[15,[4]],[41,[194-Support02,0,2,1]],[15,[4]],[41,[194-Support02,0,2,2]],[15,[4]],[41,[194-Support02,0,2,3]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV017" type="event" x="448" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="17"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="184-Light01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV012" type="event" x="96" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="12"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="184-Light01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV001" type="event" x="192" y="384" width="32" height="32">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="169-Small11"/>
+    <property name="character_hue" value="70"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="1"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Luna" type="event" x="288" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="23"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Luna char"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[I still can't believe that Gemeid was left in ruin.]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[We all couldn't. Trust me. But it happened. ]],[101,0,[\c[3]Luna\c[0]]],[401,0,[All we can do now is put our chins up and whoop ]],[401,0,[some Demon butts!]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Hahah! I guess you're right, Luna.]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Anyway, River? There's something I've always ]],[401,0,[wanted to confront you with.]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Hmm? What is it, Luna?]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Do you... like Lyrelle??]],[235,0,[1]],[207,0,[24,98]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[*blushes* Well I-I.. I like Lyrelle cause she's an ]],[401,0,[amazing friend. Why?]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[I mean, do you like... LIKe her? You know?? Cause ]],[401,0,[as her Godmother, I deserve the truth!]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[*gulp* Luna. You know that I always care for my ]],[401,0,[friends. I don't see anything that's.. strange about it?]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[*sigh* We all can see how different you treat Lyrelle ]],[401,0,[compared to the rest of us.. ]],[101,0,[\c[3]Luna\c[0]]],[401,0,[The way you look at her eyes? The way you always ]],[401,0,[cook her favorite dish just for her exclusively?]],[101,0,[\c[3]Luna\c[0]]],[401,0,[You're not fooling anyone, River.]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Lu-Luna. What are you talking about?]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Look, there's a rainbow colored fish in the water!]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Trying to change the subject, are we?]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Umm... No I'm not!]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Then that's too bad, I was actually rooting for you.]],[207,0,[24,98]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Really?! You are?!]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Hm?]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[I mean.. wow.]],[101,0,[\c[3]River\c[0]]],[401,0,[*sigh*]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Hehehe! Piece of advice, just don't ever break her ]],[401,0,[heart.]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Break her heart? That's the worst thing a man can ]],[401,0,[ever do to Lyrelle! I would never break---]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Caught you again! This isn't going very well for you ]],[401,0,[isn't it, River? Hahaha!]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[*sigh* I'll just say no more.]],[235,0,[1]],[121,0,[280,280,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV007" type="event" x="352" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="7"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="194-Support02"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="3"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[15,[4]],[41,[194-Support02,0,2,1]],[15,[4]],[41,[194-Support02,0,2,2]],[15,[4]],[41,[194-Support02,0,2,3]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Cesar" type="event" x="448" y="192" width="32" height="32">
+   <properties>
+    <property name="id" value="18"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Cesar"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* I already told you, Krizza. I am not afraid of little ]],[401,0,[bugs!]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Hm? Then prove it!! See this centipede over he---]],[235,0,[1]],[207,0,[18,98]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[GET THAT THING AWAY FROM ME!!]],[235,0,[1]],[122,0,[4,4,0,0,0]],[106,0,[20]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Bwahahah!! Are you kidding me? I've tried eating a ]],[401,0,[bug as a snack before!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[*giggles* Oh dear!]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[You know, having a phobia is quite normal.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Look, I am not afraid of that... THING! Okay?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I just find them eerie to the touch.]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Awww come on, Cesar! Just try it..]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? I'm putting it on my hands and nothing bad's]],[401,0,[happening.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Uhg! How are you touching that filth so comfortably?]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Cause it's okay!! We all wanna see Cesar touch this ]],[401,0,[bug, right guys?]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*chuckles* Just do it, man!! You're a Paladin yet you ]],[401,0,[can't touch a little bug? Pffffft!!]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Silence, Clark!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[It really isn't that bad. Try to conquer your fears, ]],[401,0,[Cesar.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I already told you, It's not a fear!!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Go Cesar!! Tee-hee! You can do it!!]],[122,1,[3,3,0,0,18]],[231,1,[1,Cesar,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Cesar\c[0]]],[401,1,[*sigh* Not you too, Lady Ophelia.]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[I swear, it isn't that bad!! Here, give me your hand.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* Fine... this is a waste of time.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? Nice and easy.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[There you go!! Congrats, you've finally touched a little ]],[401,0,[bug!!]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Add'a boy!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now you're worthy of the title "Paladin".]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Yey!! You did it ! *giggles*]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Whatever...]],[235,0,[1]],[121,0,[279,279,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Hanni" type="event" x="96" y="256" width="32" height="32">
+   <properties>
+    <property name="id" value="13"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="xpchar24"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[That's really quite amazing, Hanni. You being able to ]],[401,0,[access the fabric of time like that?]],[101,0,[\c[3]Fence\c[0]]],[401,0,[Seeing what was, what is and what is yet to come?]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[Oh umm.. My powers still aren't that perfect yet, ]],[401,0,[Fence. I--I think I still need more practice at focusing.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[I see. For one that's still practicing, I think you're ]],[401,0,[already efficient enough as you are.]],[101,0,[\c[3]Fence\c[0]]],[401,0,[I mean, you are the reason why we were still able ]],[401,0,[to reach Gemeid and prevented any further deaths.]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[I--uh *blushes* It-it really wasn't all because of me. It ]],[401,0,[was because you all believed in my powers.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[That is to be expected, Hanni. I know exactly how it ]],[401,0,[feels like to be born different.]],[101,0,[\c[3]Fence\c[0]]],[401,0,[So there's no reason for me nor the Chancellor and ]],[401,0,[her friends to ever doubt you.]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[Wow.. Fence. Umm-- I.. thank you.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[We magic-users must always have each others' ]],[401,0,[backs.]],[122,0,[3,3,0,0,13]],[231,0,[1,Hanni,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Hanni\c[0]]],[401,0,[You're right, Fence. We, Lyrelle and Luna understand ]],[401,0,[this pain very much.]],[122,0,[3,3,0,0,11]],[231,0,[1,Fence,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Fence\c[0]]],[401,0,[Indeed, Hanni.]],[235,0,[1]],[121,0,[278,278,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV002" type="event" x="416" y="320" width="32" height="32">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="169-Small11"/>
+    <property name="character_hue" value="70"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="1"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="River" type="event" x="320" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="24"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Fighter"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[I still can't believe that Gemeid was left in ruin.]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[We all couldn't. Trust me. But it happened. ]],[101,0,[\c[3]Luna\c[0]]],[401,0,[All we can do now is put our chins up and whoop ]],[401,0,[some Demon butts!]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Hahah! I guess you're right, Luna.]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Anyway, River? There's something I've always ]],[401,0,[wanted to confront you with.]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Hmm? What is it, Luna?]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Do you... like Lyrelle??]],[235,0,[1]],[207,0,[24,98]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[*blushes* Well I-I.. I like Lyrelle cause she's an ]],[401,0,[amazing friend. Why?]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[I mean, do you like... LIKe her? You know?? Cause ]],[401,0,[as her Godmother, I deserve the truth!]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[*gulp* Luna. You know that I always care for my ]],[401,0,[friends. I don't see anything that's.. strange about it?]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[*sigh* We all can see how different you treat Lyrelle ]],[401,0,[compared to the rest of us.. ]],[101,0,[\c[3]Luna\c[0]]],[401,0,[The way you look at her eyes? The way you always ]],[401,0,[cook her favorite dish just for her exclusively?]],[101,0,[\c[3]Luna\c[0]]],[401,0,[You're not fooling anyone, River.]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Lu-Luna. What are you talking about?]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Look, there's a rainbow colored fish in the water!]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Trying to change the subject, are we?]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Umm... No I'm not!]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Then that's too bad, I was actually rooting for you.]],[207,0,[24,98]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Really?! You are?!]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Hm?]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[I mean.. wow.]],[101,0,[\c[3]River\c[0]]],[401,0,[*sigh*]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Hehehe! Piece of advice, just don't ever break her ]],[401,0,[heart.]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[Break her heart? That's the worst thing a man can ]],[401,0,[ever do to Lyrelle! I would never break---]],[122,0,[3,3,0,0,23]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Caught you again! This isn't going very well for you ]],[401,0,[isn't it, River? Hahaha!]],[122,0,[3,3,0,0,24]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[*sigh* I'll just say no more.]],[235,0,[1]],[121,0,[280,280,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV008" type="event" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="8"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="194-Support02"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="3"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[15,[4]],[41,[194-Support02,0,2,1]],[15,[4]],[41,[194-Support02,0,2,2]],[15,[4]],[41,[194-Support02,0,2,3]],[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Krizza" type="event" x="416" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="19"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Krizza"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="6"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* I already told you, Krizza. I am not afraid of little ]],[401,0,[bugs!]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Hm? Then prove it!! See this centipede over he---]],[235,0,[1]],[207,0,[18,98]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[GET THAT THING AWAY FROM ME!!]],[235,0,[1]],[122,0,[4,4,0,0,0]],[106,0,[20]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Bwahahah!! Are you kidding me? I've tried eating a ]],[401,0,[bug as a snack before!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[*giggles* Oh dear!]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[You know, having a phobia is quite normal.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Look, I am not afraid of that... THING! Okay?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I just find them eerie to the touch.]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Awww come on, Cesar! Just try it..]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? I'm putting it on my hands and nothing bad's]],[401,0,[happening.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Uhg! How are you touching that filth so comfortably?]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Cause it's okay!! We all wanna see Cesar touch this ]],[401,0,[bug, right guys?]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*chuckles* Just do it, man!! You're a Paladin yet you ]],[401,0,[can't touch a little bug? Pffffft!!]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Silence, Clark!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[It really isn't that bad. Try to conquer your fears, ]],[401,0,[Cesar.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I already told you, It's not a fear!!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Go Cesar!! Tee-hee! You can do it!!]],[122,1,[3,3,0,0,18]],[231,1,[1,Cesar,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Cesar\c[0]]],[401,1,[*sigh* Not you too, Lady Ophelia.]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[I swear, it isn't that bad!! Here, give me your hand.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* Fine... this is a waste of time.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? Nice and easy.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[There you go!! Congrats, you've finally touched a little ]],[401,0,[bug!!]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Add'a boy!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now you're worthy of the title "Paladin".]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Yey!! You did it ! *giggles*]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Whatever...]],[235,0,[1]],[121,0,[279,279,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV025" type="event" x="288" y="0" width="32" height="32">
+   <properties>
+    <property name="id" value="25"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,8]],[102,1,[[Continue Journey?,Still need time to relax...],2]],[402,1,[0,Continue Journey?]],[121,2,[281,281,0]],[201,2,[0,287,23,53,8,0]],[0,2,[]],[402,1,[1,Still need time to relax...]],[209,2,[-1,#<RPG::MoveRoute:0xbb05c98>]],[509,2,[#<RPG::MoveCommand:0xbb05c38>]],[210,2,[]],[0,2,[]],[404,1,[]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV003" type="event" x="320" y="64" width="32" height="32">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="169-Small11"/>
+    <property name="character_hue" value="70"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="1"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV014" type="event" x="288" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="14"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[102,1,[[Continue Journey?,Still need time to relax...],2]],[402,1,[0,Continue Journey?]],[121,2,[281,281,0]],[201,2,[0,285,22,1,2,0]],[0,2,[]],[402,1,[1,Still need time to relax...]],[209,2,[-1,#<RPG::MoveRoute:0xbb07048>]],[509,2,[#<RPG::MoveCommand:0xbb06fe8>]],[210,2,[]],[0,2,[]],[404,1,[]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV009" type="event" x="32" y="416" width="32" height="32">
+   <properties>
+    <property name="id" value="9"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="3"/>
+    <property name="list" value="[[106,0,[20]],[117,0,[3]],[122,0,[3,3,0,0,0]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[Wait.. huff..huff..]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[What is it, Luna?]],[231,0,[1,Luna,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Luna\c[0]]],[401,0,[I'm really kinda tired right now. Can we like uhh, rest ]],[401,0,[here for a while?]],[231,0,[1,River,0,0,0,0,100,100,255,0]],[101,0,[\c[3]River\c[0]]],[401,0,[I supposed it wouldn't hurt to take a few moments to ]],[401,0,[recover. We can rest in this area.]],[231,0,[1,Lyrelle,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Lyrelle\c[0]]],[401,0,[Okay then! Let us all take a break.]],[235,0,[1]],[223,0,[(-255.000000, -255.000000, -255.000000, 0.000000),20]],[106,0,[20]],[121,0,[277,277,0]],[106,0,[20]],[223,0,[(0.000000, 0.000000, 0.000000, 0.000000),20]],[241,0,[#<RPG::AudioFile:0xbafd928>]],[106,0,[20]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Alden" type="event" x="480" y="224" width="32" height="32">
+   <properties>
+    <property name="id" value="20"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="archer_m"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="4"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* I already told you, Krizza. I am not afraid of little ]],[401,0,[bugs!]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Hm? Then prove it!! See this centipede over he---]],[235,0,[1]],[207,0,[18,98]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[GET THAT THING AWAY FROM ME!!]],[235,0,[1]],[122,0,[4,4,0,0,0]],[106,0,[20]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Bwahahah!! Are you kidding me? I've tried eating a ]],[401,0,[bug as a snack before!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[*giggles* Oh dear!]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[You know, having a phobia is quite normal.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Look, I am not afraid of that... THING! Okay?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I just find them eerie to the touch.]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Awww come on, Cesar! Just try it..]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? I'm putting it on my hands and nothing bad's]],[401,0,[happening.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Uhg! How are you touching that filth so comfortably?]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Cause it's okay!! We all wanna see Cesar touch this ]],[401,0,[bug, right guys?]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*chuckles* Just do it, man!! You're a Paladin yet you ]],[401,0,[can't touch a little bug? Pffffft!!]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Silence, Clark!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[It really isn't that bad. Try to conquer your fears, ]],[401,0,[Cesar.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I already told you, It's not a fear!!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Go Cesar!! Tee-hee! You can do it!!]],[122,1,[3,3,0,0,18]],[231,1,[1,Cesar,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Cesar\c[0]]],[401,1,[*sigh* Not you too, Lady Ophelia.]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[I swear, it isn't that bad!! Here, give me your hand.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* Fine... this is a waste of time.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? Nice and easy.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[There you go!! Congrats, you've finally touched a little ]],[401,0,[bug!!]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Add'a boy!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now you're worthy of the title "Paladin".]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Yey!! You did it ! *giggles*]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Whatever...]],[235,0,[1]],[121,0,[279,279,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV026" type="event" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="id" value="26"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,8]],[102,1,[[Continue Journey?,Still need time to relax...],2]],[402,1,[0,Continue Journey?]],[121,2,[281,281,0]],[201,2,[0,287,24,53,8,0]],[0,2,[]],[402,1,[1,Still need time to relax...]],[209,2,[-1,#<RPG::MoveRoute:0xbafbb88>]],[509,2,[#<RPG::MoveCommand:0xbafbb28>]],[210,2,[]],[0,2,[]],[404,1,[]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV015" type="event" x="320" y="448" width="32" height="32">
+   <properties>
+    <property name="id" value="15"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value=""/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="1"/>
+    <property name="list" value="[[111,0,[6,-1,2]],[102,1,[[Continue Journey?,Still need time to relax...],2]],[402,1,[0,Continue Journey?]],[121,2,[281,281,0]],[201,2,[0,285,23,1,2,0]],[0,2,[]],[402,1,[1,Still need time to relax...]],[209,2,[-1,#<RPG::MoveRoute:0xbafcb18>]],[509,2,[#<RPG::MoveCommand:0xbafcab8>]],[210,2,[]],[0,2,[]],[404,1,[]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="EV004" type="event" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="switch1_valid" value="false"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="1"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="169-Small11"/>
+    <property name="character_hue" value="70"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="1"/>
+    <property name="move_type" value="1"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="6"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="true"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[108,0,[Light Effects]],[108,0,[Ground]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="phelia" type="event" x="256" y="64" width="32" height="32">
+   <properties>
+    <property name="id" value="10"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="079-Angel01"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="2"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="true"/>
+    <property name="direction_fix" value="false"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,1,5]],[231,0,[1,an1,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Daedelus\c[0]]],[401,0,[Would you like to save your progress?]],[235,0,[1]],[102,0,[[Yes,No],2]],[402,0,[0,Yes]],[352,1,[]],[122,1,[3,3,0,1,5]],[231,1,[1,an1,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Daedelus\c[0]]],[401,1,[Don't hesitate to approach me again if you wish to ]],[401,1,[save!]],[235,1,[1]],[0,1,[]],[402,0,[1,No]],[122,1,[3,3,0,1,5]],[231,1,[1,an1,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Daedelus\c[0]]],[401,1,[Well, you can find me if you need me!]],[235,1,[1]],[0,1,[]],[404,0,[]],[0,0,[]]]"/>
+   </properties>
+  </object>
+  <object name="Clark" type="event" x="448" y="256" width="32" height="32">
+   <properties>
+    <property name="id" value="21"/>
+    <property name="switch1_valid" value="true"/>
+    <property name="switch2_valid" value="false"/>
+    <property name="variable_valid" value="false"/>
+    <property name="self_switch_valid" value="false"/>
+    <property name="switch1_id" value="277"/>
+    <property name="switch2_id" value="1"/>
+    <property name="variable_id" value="1"/>
+    <property name="variable_value" value="0"/>
+    <property name="self_switch_ch" value="A"/>
+    <property name="tile_id" value="0"/>
+    <property name="character_name" value="Clark"/>
+    <property name="character_hue" value="0"/>
+    <property name="direction" value="8"/>
+    <property name="pattern" value="0"/>
+    <property name="opacity" value="255"/>
+    <property name="blend_type" value="0"/>
+    <property name="move_type" value="0"/>
+    <property name="move_speed" value="3"/>
+    <property name="move_frequency" value="3"/>
+    <property name="move_route" value="[true,false,[[0,[]]]]"/>
+    <property name="walk_anime" value="true"/>
+    <property name="step_anime" value="false"/>
+    <property name="direction_fix" value="true"/>
+    <property name="through" value="false"/>
+    <property name="always_on_top" value="false"/>
+    <property name="trigger" value="0"/>
+    <property name="list" value="[[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* I already told you, Krizza. I am not afraid of little ]],[401,0,[bugs!]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Hm? Then prove it!! See this centipede over he---]],[235,0,[1]],[207,0,[18,98]],[122,0,[4,4,0,0,2]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[GET THAT THING AWAY FROM ME!!]],[235,0,[1]],[122,0,[4,4,0,0,0]],[106,0,[20]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Bwahahah!! Are you kidding me? I've tried eating a ]],[401,0,[bug as a snack before!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[*giggles* Oh dear!]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[You know, having a phobia is quite normal.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Look, I am not afraid of that... THING! Okay?]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I just find them eerie to the touch.]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Awww come on, Cesar! Just try it..]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? I'm putting it on my hands and nothing bad's]],[401,0,[happening.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Uhg! How are you touching that filth so comfortably?]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[Cause it's okay!! We all wanna see Cesar touch this ]],[401,0,[bug, right guys?]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[*chuckles* Just do it, man!! You're a Paladin yet you ]],[401,0,[can't touch a little bug? Pffffft!!]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Silence, Clark!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[It really isn't that bad. Try to conquer your fears, ]],[401,0,[Cesar.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[I already told you, It's not a fear!!]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Go Cesar!! Tee-hee! You can do it!!]],[122,1,[3,3,0,0,18]],[231,1,[1,Cesar,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Cesar\c[0]]],[401,1,[*sigh* Not you too, Lady Ophelia.]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[I swear, it isn't that bad!! Here, give me your hand.]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[*sigh* Fine... this is a waste of time.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[See? Nice and easy.]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[...]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,19]],[231,0,[1,f2,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Krizza\c[0]]],[401,0,[There you go!! Congrats, you've finally touched a little ]],[401,0,[bug!!]],[122,0,[3,3,0,0,21]],[231,0,[1,Clark,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Clark\c[0]]],[401,0,[Add'a boy!]],[122,0,[3,3,0,0,20]],[231,0,[1,Alden,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Alden\c[0]]],[401,0,[Now you're worthy of the title "Paladin".]],[111,0,[4,11,0]],[122,1,[3,3,0,0,22]],[231,1,[1,Ophelia,0,0,0,0,100,100,255,0]],[101,1,[\c[3]Ophelia\c[0]]],[401,1,[Yey!! You did it ! *giggles*]],[0,1,[]],[411,0,[]],[0,1,[]],[412,0,[]],[235,0,[1]],[106,0,[20]],[122,0,[3,3,0,0,18]],[231,0,[1,Cesar,0,0,0,0,100,100,255,0]],[101,0,[\c[3]Cesar\c[0]]],[401,0,[Whatever...]],[235,0,[1]],[121,0,[279,279,0]],[0,0,[]]]"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Layer 1" width="20" height="15">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA
+  </data>
+ </layer>
+ <layer name="Layer 2" width="20" height="15">
+  <data encoding="base64">
+   SQAAAEoAAABLAAAATAAAAE0AAABOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRAAAAUgAAAFMAAABUAAAAVQAAAFYAAAAAAAAAAAAAABMAAAAAAAAAEwAAAAAAAABJAAAASgAAAEsAAABMAAAATQAAAA0AAAAAAAAAAAAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAAAAAAAOAAAAAAAAABMAAAAAAAAAAAAAAFEAAABSAAAAUwAAAFQAAABVAAAAVgAAAAAAAAAAAAAAYQAAAGIAAABjAAAAZAAAAGUAAABmAAAADQAAAAAAAAAAAAAAAAAAABMAAAAAAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAAAAAAAAAAAABpAAAAagAAAGsAAABsAAAAbQAAAG4AAAAWAAAAEwAAAAAAAAAAAAAAAAAAAAAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAEwAAAB4AAAAMAAAAAAAAAAAAAAAAAAAAAAAAABMAAABqAAAAawAAAGwAAABtAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEwAAAAYAAAATAAAAJwAAACgAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAEwAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAASQAAAEoAAABLAAAATAAAAE0AAABOAAAAAAAAAAAAAAAPAAAAAAAAABAAAAAAAAAADgAAABMAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABRAAAAUgAAAFMAAABUAAAAVQAAAFYAAAATAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAAAAAAAFEAAABSAAAAUwAAAFQAAABVAAAAVgAAAFkAAABaAAAAWwAAAFwAAABdAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAAAAAAAAAWQAAAFoAAABbAAAAXAAAAF0AAABeAAAAYQAAAGIAAABjAAAAZAAAAGUAAABmAAAAEwAAABMAAAAAAAAAAAAAABcAAAAYAAAAAAAAAAAAAABhAAAAYgAAAGMAAABkAAAAZQAAAGYAAABpAAAAagAAAGsAAABsAAAAbQAAAG4AAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkAAABqAAAAawAAAGwAAABtAAAAbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="Layer 3" width="20" height="15">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="save">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/res/images/interactables/save/ezgif-1-bf71c1c749-png-48x48-sprite-png.zip!/" />
+      <root url="jar://$PROJECT_DIR$/res/images/interactables/save/ezgif-1-7e51ae18ac-png-144x192-sprite-png.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

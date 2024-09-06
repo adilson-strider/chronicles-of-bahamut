@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="MZ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/res/images/battlers/MZ/ezgif-6-ebae382bf5-png-334x200-sprite-png.zip!/" />
+      <root url="jar://$PROJECT_DIR$/res/images/battlers/MZ/ezgif-1-058594a5b0-png-334x200-sprite-png.zip!/" />
+      <root url="jar://$PROJECT_DIR$/res/images/battlers/MZ/ezgif-2-44e4feb786-png-334x200-sprite-png.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
