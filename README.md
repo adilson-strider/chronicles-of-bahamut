@@ -7,11 +7,7 @@ A 2D RPG game in development, inspired by classic SNES titles like Final Fantasy
 
 ![image](https://github.com/user-attachments/assets/c6b6520c-d084-402c-b957-07165ae95c66)
 
-![image](https://github.com/user-attachments/assets/45cb387f-8e03-4daf-8a1e-058adf6d5029)
-
-![image](https://github.com/user-attachments/assets/03d1ca8b-0a1e-4a31-9660-6b897bd53e4b)
-
-![image](https://github.com/user-attachments/assets/c90dea3b-7b29-4331-9647-d96526d62cf3)
+![image](https://github.com/user-attachments/assets/a1317c1b-908d-4ccf-8775-3dedea28a4eb)
 
 
 ## Technology
