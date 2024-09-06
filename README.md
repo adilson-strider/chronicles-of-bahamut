@@ -1,7 +1,7 @@
 # The Chronicles of Bahamut
 
 ## Description
-A 2D RPG game in development, inspired by classic SNES titles like Final Fantasy and Breath of Fire.
+A turn-based 2D RPG game in development, inspired by classic SNES titles like Final Fantasy and Breath of Fire.
 
 ![image](https://github.com/user-attachments/assets/1e295e25-23ae-4a2c-bd9e-8f1e07406f25)
 
