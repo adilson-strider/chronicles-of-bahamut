@@ -12,9 +12,8 @@ A 2D RPG game in development, inspired by classic SNES titles like Final Fantasy
 ![image](https://github.com/user-attachments/assets/7237513f-39f2-48af-8b0a-d159abc2dbea)
 
 
-
 ## Technology
-Java and SimpleJSON library.
+Java, SimpleJSON library and Tiled, for TMX maps (https://www.mapeditor.org/).
 
 ## How to use
 1 - Clone the repository and import it into your preferred Java IDE.
